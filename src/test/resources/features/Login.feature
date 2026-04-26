@@ -1,7 +1,7 @@
 Feature: Login functionality
 
 @login
-  Scenario Outline: verify login success and locked users
+  Scenario Outline: verify login success and locked users changedgit
     Given user is on login page
     When user enters "<username>" and "<password>"
     And clicks on login button
